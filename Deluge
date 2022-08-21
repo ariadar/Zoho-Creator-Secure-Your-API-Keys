@@ -1,0 +1,7 @@
+// On Load
+hide input.API_Key;
+// Fetch API Key from API Keys form
+asRecord = API_Keys[ID != 0];
+if(input.API_Key = "")
+{
+	input.API_Key = asRecord.API_Key;
